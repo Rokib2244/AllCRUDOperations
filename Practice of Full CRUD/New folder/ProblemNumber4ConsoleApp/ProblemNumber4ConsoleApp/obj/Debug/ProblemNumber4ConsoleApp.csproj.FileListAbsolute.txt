@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\ProblemNumber4ConsoleApp\ProblemNumber4ConsoleApp\bin\Debug\ProblemNumber4ConsoleApp.exe.config
+C:\Users\DELL\source\repos\ProblemNumber4ConsoleApp\ProblemNumber4ConsoleApp\bin\Debug\ProblemNumber4ConsoleApp.exe
+C:\Users\DELL\source\repos\ProblemNumber4ConsoleApp\ProblemNumber4ConsoleApp\bin\Debug\ProblemNumber4ConsoleApp.pdb
+C:\Users\DELL\source\repos\ProblemNumber4ConsoleApp\ProblemNumber4ConsoleApp\obj\Debug\ProblemNumber4ConsoleApp.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\ProblemNumber4ConsoleApp\ProblemNumber4ConsoleApp\obj\Debug\ProblemNumber4ConsoleApp.exe
+C:\Users\DELL\source\repos\ProblemNumber4ConsoleApp\ProblemNumber4ConsoleApp\obj\Debug\ProblemNumber4ConsoleApp.pdb

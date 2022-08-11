@@ -1,0 +1,126 @@
+﻿@model MemberListModel
+@{
+    ViewData["Title"] = "ShowAllMember";
+}
+
+@section Styles{
+    <link rel="stylesheet" href="~/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.css" />
+}
+@section Scripts
+{
+    <script src="~/admin/plugins/datatables/jquery.dataTables.js"></script>
+    <script src="~/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+    <script>
+        $(function () {
+            ("#memberTable").DataTable();
+        });
+    </script>
+    @*<script>
+        $(function () {
+            $("#memberTable").DataTable({
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "/Admin/Member/GetAllMembers",
+                    "headers": {
+                        "Authorization": "Bearer: ......"
+                    },
+                },
+
+                "columnDefs": [
+                    {
+                        "orderable": false,
+                        "targets": 3,
+                        "render": function (data, type, row) {
+                            return ` <button type="submit" class="btn btn-info btn-sm" onclick="window.location.href='/Admin/Member/Edit/${data}'" value='${data}'>
+                                    <i class="fas fa-pencil-alt">
+                                     </i>
+                                      Edit
+                                      </button>
+                                      <button type="submit" class="btn btn-danger btn-sm show-bs-modal" href="#" data-id='${data}' value='${data}'>
+                                            <i class="fas fa-trash">
+                                            </i>
+                                            Delete
+                                        </button>`;
+
+                        }
+
+                    }
+                ]
+            });
+
+
+            $('#memberTable').on('click', '.show-bs-modal', function (event) {
+                var id = $(this).data("id");
+                var modal = $("#modal-default");
+                modal.find('.modal-body p').text('Are you sure you want to delete this record?')
+                $("#deleteId").val(id);
+                $("#deleteForm").attr("action", "/Member/Delete")
+                modal.modal('show');
+            });
+
+            $("#deleteButton").click(function () {
+                $("#deleteForm").submit();
+            });
+
+        });
+
+    </script>*@
+
+}
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>List Of All Members</h1>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section>
+    <div class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card-header"> All Available Members</div>
+                <div class="card-body">
+                    <table id="memberTable" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Date Of  Birth</th>
+                                <th>Address</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var member in Model.Members)
+                {
+                    <tr>
+                        <td>@member.Name</td>
+                        <td>@member.DateOfBirth</td>
+                        <td>@member.Address</td>
+                        <td>
+                            <button type="submit" class="btn btn-info btn-sm" onclick="window.location.href = '/Admin/Member/Edit/@member.Id'" value=@member.Id>
+                                <i class="fas fa-pencil-alt">
+                                </i>
+                                Edit
+                            </button>
+                            <button type="submit" class="btn btn-danger btn-sm show-bs-modal" href="#" data-id='${data}' value='${data}'>
+                                <i class="fas fa-trash">
+                                </i>
+                                Delete
+                            </button>
+
+                        </td>
+                    </tr>
+                }
+
+                        </tbody>
+                    </table>
+                    @*<partial name="_DeletePopupPartial" />*@
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

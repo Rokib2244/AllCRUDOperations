@@ -1,0 +1,5 @@
+F:\Practice of Full CRUD\TicketBookingSystem3\TicketBookingSystem3.Training\obj\Debug\net5.0\TicketBookingSystem3.Training.csproj.AssemblyReference.cache
+F:\Practice of Full CRUD\TicketBookingSystem3\TicketBookingSystem3.Training\obj\Debug\net5.0\TicketBookingSystem3.Training.GeneratedMSBuildEditorConfig.editorconfig
+F:\Practice of Full CRUD\TicketBookingSystem3\TicketBookingSystem3.Training\obj\Debug\net5.0\TicketBookingSystem3.Training.AssemblyInfoInputs.cache
+F:\Practice of Full CRUD\TicketBookingSystem3\TicketBookingSystem3.Training\obj\Debug\net5.0\TicketBookingSystem3.Training.AssemblyInfo.cs
+F:\Practice of Full CRUD\TicketBookingSystem3\TicketBookingSystem3.Training\obj\Debug\net5.0\TicketBookingSystem3.Training.csproj.CoreCompileInputs.cache

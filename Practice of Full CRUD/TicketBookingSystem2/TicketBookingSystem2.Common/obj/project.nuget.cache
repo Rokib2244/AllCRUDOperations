@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "J1l19drCAGl6bzQGgwCNxz24z6Kq6DSzZ/xTsS3oORNzwY6g6mJG8dmFtqTyX37flY+uEPW2aYgbSHCCzbVYDg==",
+  "success": true,
+  "projectFilePath": "F:\\Practice of Full CRUD\\TicketBookingSystem2\\TicketBookingSystem2.Common\\TicketBookingSystem2.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

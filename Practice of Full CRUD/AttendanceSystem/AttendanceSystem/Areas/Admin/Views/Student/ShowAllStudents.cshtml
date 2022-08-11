@@ -1,0 +1,49 @@
+﻿@model StudentListModel
+@{
+    ViewData["Title"] = "ShowAllStudents";
+}
+
+<h1>ShowAllStudents</h1>
+<section>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1 class="card-title">List of All Students</h1>
+                        </div>
+                        <div class="card-body">
+                            <table id="students" class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Student Name</th>
+                                        <th>Student RollNumber</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach( var student in Model.Students)
+                                        { <tr>
+                                            <td>@student.StudentName</td>
+                                            <td>@student.StudentRollNumber</td>
+                                    <td><button type="submit" class="btn btn-info btn-sm" onclick="window.location.href='/Admin/Student/Edit/@student.Id'" value="@student.Id">
+                                        <i class="fas fa-pencil-alt">
+                                        </i>Edit
+</button>
+                                        <button type="submit" class="btn btn-danger btn-sm" onclick="window.location.href='/Admin/Student/Delete/@student.Id'" value="@student.Id">
+                                            <i class="fas fa-trash">
+                                            </i>Delete
+                                        </button></td>
+                                            </tr>
+
+                                        }
+                                </tbody>
+                            </table> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

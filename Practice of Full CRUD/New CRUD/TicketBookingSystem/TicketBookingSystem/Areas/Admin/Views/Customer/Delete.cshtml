@@ -1,0 +1,67 @@
+﻿@model DeleteCustomerModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title"> Create New Customer</h3>
+                    </div>
+                    <form method="post" asp-controller="Customer" asp-action="Delete" asp-antiforgery="true">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label asp-for="CustomerName" class="col-form-label">Customer Name</label>
+                                <input type="text" asp-for="CustomerName" id="customerName" placeholder="Customer Name" />
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Age" class="col-form-label">Age</label>
+                                <input type="text" asp-for="Age" id="age" placeholder="Age" />
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="ContactNumber" class="col-form-label">ContactNumber</label>
+                                <input type="text" asp-for="ContactNumber" id="contactNumber" placeholder="ContactNumber" />
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Address" class="col-form-label">Address</label>
+                                <input type="text" asp-for="Address" id="address" Address="Address" />
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-info">Delete</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="modal fade" id="modal-default">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Delete</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure, you want to delete?</p>
+                <form id="deleteForm" action="" method="post" asp-antiforgery="true">
+                    <input type="hidden" id="deleteId" value="" name="id" />
+                </form>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" id="deleteButton" class="btn btn-danger">Yes, Delete!</button>
+            </div>
+        </div>
+    </div>
+</div>

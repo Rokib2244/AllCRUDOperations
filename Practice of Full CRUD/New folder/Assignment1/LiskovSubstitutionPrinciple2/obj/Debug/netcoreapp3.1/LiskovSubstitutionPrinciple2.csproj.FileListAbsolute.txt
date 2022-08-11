@@ -1,0 +1,11 @@
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\bin\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.exe
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\bin\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.deps.json
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\bin\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.runtimeconfig.json
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\bin\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\bin\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.dll
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\bin\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.pdb
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\obj\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.csprojAssemblyReference.cache
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\obj\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\obj\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\obj\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.dll
+C:\Users\DELL\source\repos\Assignment1\LiskovSubstitutionPrinciple2\obj\Debug\netcoreapp3.1\LiskovSubstitutionPrinciple2.pdb

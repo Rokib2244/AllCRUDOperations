@@ -1,0 +1,64 @@
+2022-06-07 13:05:49.993 +06:00 [INF] Application Starting up
+2022-06-07 13:12:28.734 +06:00 [INF] Application Starting up
+2022-06-07 13:13:41.159 +06:00 [INF] Application Starting up
+2022-06-07 13:15:53.242 +06:00 [INF] Application Starting up
+2022-06-07 15:30:03.523 +06:00 [INF] Application Starting up
+2022-06-07 15:32:00.944 +06:00 [INF] Application Starting up
+2022-06-07 15:38:37.598 +06:00 [INF] Application Starting up
+2022-06-07 15:40:25.790 +06:00 [INF] Application Starting up
+2022-06-07 15:55:22.733 +06:00 [INF] Application Starting up
+2022-06-07 15:59:12.338 +06:00 [INF] Application Starting up
+2022-06-07 16:05:31.153 +06:00 [INF] Application Starting up
+2022-06-07 16:07:21.467 +06:00 [INF] Application Starting up
+2022-06-07 16:09:41.092 +06:00 [INF] Application Starting up
+2022-06-07 16:16:24.619 +06:00 [INF] Application Starting up
+2022-06-07 16:19:52.806 +06:00 [INF] Application Starting up
+2022-06-07 16:36:20.115 +06:00 [INF] Application Starting up
+2022-06-07 16:37:27.888 +06:00 [INF] Application Starting up
+2022-06-07 16:39:39.414 +06:00 [INF] Application Starting up
+2022-06-07 16:56:48.681 +06:00 [INF] Application Starting up
+2022-06-07 16:57:58.558 +06:00 [INF] Application Starting up
+2022-06-07 18:27:30.552 +06:00 [INF] Application Starting up
+2022-06-07 19:00:49.142 +06:00 [INF] Application Starting up
+2022-06-07 19:01:53.061 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at SocialNetworkWebApp2.Data.Repository`2.GetDynamic(Expression`1 filter, String orderBy, String includeProperties, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in F:\Practice of Full CRUD\SocialNetworkWebApp2\SocialNetworkWebApp2.Data\Repository.cs:line 136
+   at SocialNetworkWebApp2.Training.Services.MemberService.GetAllmembers(Int32 pageIndex, Int32 pageSize, String searchText, String sortText) in F:\Practice of Full CRUD\SocialNetworkWebApp2\SocialNetworkWebApp2.Training\Services\MemberService.cs:line 79
+   at SocialNetworkWebApp2.Areas.Admin.Models.MemberListModel.GetAllMembers(DataTablesAjaxRequestModel dataTablesModel) in F:\Practice of Full CRUD\SocialNetworkWebApp2\SocialNetworkWebApp2\Areas\Admin\Models\MemberListModel.cs:line 36
+   at SocialNetworkWebApp2.Areas.Admin.Controllers.MemberController.GetAllMembers() in F:\Practice of Full CRUD\SocialNetworkWebApp2\SocialNetworkWebApp2\Areas\Admin\Controllers\MemberController.cs:line 36
+   at lambda_method628(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-07 19:07:37.618 +06:00 [INF] Application Starting up
+2022-06-07 19:08:41.566 +06:00 [INF] Application Starting up
+2022-06-07 19:12:57.929 +06:00 [INF] Application Starting up
+2022-06-07 23:02:21.462 +06:00 [INF] Application Starting up
+2022-06-07 23:08:47.684 +06:00 [INF] Application Starting up
+2022-06-07 23:10:07.858 +06:00 [INF] Application Starting up
+2022-06-07 23:10:51.354 +06:00 [INF] Application Starting up

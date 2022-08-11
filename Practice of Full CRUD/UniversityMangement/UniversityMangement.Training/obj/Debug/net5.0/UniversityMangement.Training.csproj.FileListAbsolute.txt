@@ -1,0 +1,5 @@
+E:\Practice of Full CRUD\UniversityMangement\UniversityMangement.Training\obj\Debug\net5.0\UniversityMangement.Training.csproj.AssemblyReference.cache
+E:\Practice of Full CRUD\UniversityMangement\UniversityMangement.Training\obj\Debug\net5.0\UniversityMangement.Training.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice of Full CRUD\UniversityMangement\UniversityMangement.Training\obj\Debug\net5.0\UniversityMangement.Training.AssemblyInfoInputs.cache
+E:\Practice of Full CRUD\UniversityMangement\UniversityMangement.Training\obj\Debug\net5.0\UniversityMangement.Training.AssemblyInfo.cs
+E:\Practice of Full CRUD\UniversityMangement\UniversityMangement.Training\obj\Debug\net5.0\UniversityMangement.Training.csproj.CoreCompileInputs.cache

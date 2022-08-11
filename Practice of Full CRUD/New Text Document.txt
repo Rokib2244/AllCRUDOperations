@@ -1,0 +1,125 @@
+@model CreateCustomerModel;
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+    <!-- Content Header (Page header) -->
+<section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>General Form</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">General Form</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-info">
+                    <div class="card-header">
+                        <h3 class="card-title">Create A New Course</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form class="form-horizontal" method="post" asp-controller="Admin" asp-action="Create"
+                          asp-antiforgery="true">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <label asp-for="Name" class="col-sm-2 col-form-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="name" asp-for="Name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Age" class="col-sm-2 col-form-label">Age</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" asp-for="Age"
+                                           id="age" placeholder="Age">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="Address" class="col-sm-2 col-form-label">Address</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" asp-for="Address"
+                                           id="address" placeholder="Address ">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-info">Create</button>
+                            <a asp-action="Create" asp-controller="Admin" class="btn btn-default float-right">Cancel</a>
+                        </div>
+                        <!-- /.card-footer -->
+                    </form>
+                </div>
+            </div>
+            <!-- /.card -->
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+    
+    <!--<section class="content">
+        <div class="card card-info">
+            <div class="card-header">
+                <h3 class="card-title">Horizontal Form</h3>
+            </div>-->
+            <!-- /.card-header -->
+            <!-- form start -->
+            <!--<form class="form-horizontal" method="post" asp-controller="Admin" asp-action="Create"
+                  asp-antiforgery="true">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="card-body">
+                    <div class="form-group row">
+                        <label asp-for="Name" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" asp-for="Name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label asp-for="Age" class="col-sm-2 col-form-label">Age</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="age" asp-for="Age" placeholder="Age">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <label asp-for="Address" class="col-sm-2 col-form-label">Address</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="address" asp-for="Address" placeholder="Address">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-sm-2 col-sm-10">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                                        <label class="form-check-label" for="exampleCheck2">Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                        <!-- /.card-body -->
+                        <!--<div class="card-footer">
+                            <button type="submit" class="btn btn-info">Save</button>
+                            <button type="submit" class="btn btn-default float-right">Cancel</button>
+                        </div>-->
+                        <!-- /.card-footer -->
+            <!--</form>
+        </div>-->
+        <!-- /.card -->
+
+<!--</div>
+</section>-->
+
+I'm excited to be applying for the Software Developer position at Craftsmen. From the early life of my University life, I tried to gather both theoretical and practical knowledge of Computer Science and had an interest in new areas of Computer Technology. I attended many programming contests. Later I completed many projects based on C# language and javaScript. After completing the “Full-stack ASP.NET Core MVC Web development course” from “Dev Skill training academy” I gathered skills on ASP.NET MVC Core 5.0, ASP.NET Web API, LINQ, OOP, SOLID Principles, ADO .Net, Entity Framework, Unit Testing, Bootstrap, AJAX, AutoMapper, Docker, Git(version control), Tortoise Git. Now, I am working real time project "ECommerce System" where I used above mentioned tools.

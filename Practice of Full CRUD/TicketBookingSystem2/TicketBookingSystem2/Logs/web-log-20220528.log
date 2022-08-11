@@ -1,0 +1,26 @@
+2022-05-28 16:46:44.179 +06:00 [INF] Application Starting up
+2022-05-28 16:51:45.711 +06:00 [INF] Application Starting up
+2022-05-28 16:55:33.442 +06:00 [INF] Application Starting up
+2022-05-28 18:19:13.334 +06:00 [INF] Application Starting up
+2022-05-28 18:20:50.053 +06:00 [ERR] Create Customer Failed.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateCustomerModel -> Customer
+TicketBookingSystem2.Areas.Admin.Models.CreateCustomerModel -> TicketBookingSystem2.Training.BusinessObjects.Customer
+   at lambda_method610(Closure , Object , Customer , ResolutionContext )
+   at TicketBookingSystem2.Areas.Admin.Models.CreateCustomerModel.CreateCustomer() in E:\Practice of Full CRUD\TicketBookingSystem2\TicketBookingSystem2\Areas\Admin\Models\CreateCustomerModel.cs:line 29
+   at TicketBookingSystem2.Areas.Admin.Controllers.CustomerController.Create(CreateCustomerModel model) in E:\Practice of Full CRUD\TicketBookingSystem2\TicketBookingSystem2\Areas\Admin\Controllers\CustomerController.cs:line 48
+2022-05-28 18:27:17.032 +06:00 [INF] Application Starting up
+2022-05-28 20:03:23.238 +06:00 [INF] Application Starting up
+2022-05-28 20:08:02.576 +06:00 [INF] Application Starting up
+2022-05-28 20:14:23.148 +06:00 [INF] Application Starting up
+2022-05-28 20:16:25.059 +06:00 [INF] Application Starting up
+2022-05-28 20:44:25.610 +06:00 [INF] Application Starting up
+2022-05-28 20:58:13.452 +06:00 [INF] Application Starting up
+2022-05-28 21:12:52.484 +06:00 [INF] Application Starting up
+2022-05-28 21:15:22.187 +06:00 [ERR] Create Customer Failed.
+Org.BouncyCastle.Security.InvalidParameterException: Customer Already Exist
+   at TicketBookingSystem2.Training.Services.CustomerService.CreateCustomer(Customer customer) in E:\Practice of Full CRUD\TicketBookingSystem2\TicketBookingSystem2.Training\Services\CustomerService.cs:line 29
+   at TicketBookingSystem2.Areas.Admin.Models.CreateCustomerModel.CreateCustomer() in E:\Practice of Full CRUD\TicketBookingSystem2\TicketBookingSystem2\Areas\Admin\Models\CreateCustomerModel.cs:line 30
+   at TicketBookingSystem2.Areas.Admin.Controllers.CustomerController.Create(CreateCustomerModel model) in E:\Practice of Full CRUD\TicketBookingSystem2\TicketBookingSystem2\Areas\Admin\Controllers\CustomerController.cs:line 48
