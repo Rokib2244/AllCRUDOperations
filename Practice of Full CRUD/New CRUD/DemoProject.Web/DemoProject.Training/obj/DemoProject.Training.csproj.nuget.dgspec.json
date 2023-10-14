@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj": {}
+    "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj": {}
   },
   "projects": {
-    "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj": {
+    "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj",
+        "projectUniqueName": "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj",
         "projectName": "DemoProject.Data",
-        "projectPath": "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\obj\\",
+        "projectPath": "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj",
+        "packagesPath": "C:\\Users\\Laptop Click\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laptop Click\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +99,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -108,21 +109,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj": {
+    "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj",
+        "projectUniqueName": "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj",
         "projectName": "DemoProject.Training",
-        "projectPath": "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\obj\\",
+        "projectPath": "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\DemoProject.Training.csproj",
+        "packagesPath": "C:\\Users\\Laptop Click\\.nuget\\packages\\",
+        "outputPath": "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Training\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laptop Click\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,8 +137,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj": {
-                "projectPath": "F:\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj"
+              "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj": {
+                "projectPath": "E:\\MyProject\\AllCRUDOperations\\Practice of Full CRUD\\New CRUD\\DemoProject.Web\\DemoProject.Data\\DemoProject.Data.csproj"
               }
             }
           }
@@ -207,7 +208,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -216,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
